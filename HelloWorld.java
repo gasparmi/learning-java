@@ -1,3 +1,5 @@
+import java.time.LocalDateTime; // classes from the Java Class Library, JCL
+
 class HelloWorld {
     public static void main(String[] args) {
 
@@ -29,6 +31,9 @@ class HelloWorld {
 
         for(int elem : arr)
             System.out.println(elem);
+        
+        
+        System.out.println("It is now: " + LocalDateTime.now());
 
     }
 }
