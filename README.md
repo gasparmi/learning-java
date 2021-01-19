@@ -1,5 +1,5 @@
 # learning-java
-This code is part of a Java crash course from my mobile web dev course.
+This code is from studying a Java crash course from my mobile web dev course.
 
 ## License
 This software is distributed under the MIT License.
@@ -17,7 +17,9 @@ This software is distributed under the MIT License.
   * ```$ cd learning-java```
 
 To compile java files run this command:
+
 ```javac <filename (s)>```
 
 To execute compiled files run this command:
+
 ```java <executable (s)>```
