@@ -1,6 +1,7 @@
 import employees.Employee;
 import employees.Instructor;
 import employees.Lecturer;
+import employees.Professor;
 
 class EmployeeStuff {
     public static void main(String[] args) {
@@ -21,7 +22,15 @@ class EmployeeStuff {
         // we can type cast ei if we know it is an instructor
         System.out.println(((Instructor)ei).deliverLecture());
 
+        Professor p = new Professor("Obi Wan Kenobi", 4, 2000000, 9);
+
+
+        // an interface cannot be instantiated
+        // Lecturer l = new Lecturer();
+        // but we can do something like: 
+        // Lecturer le = new Instructor(...);
         haveALecture(i);
+        haveALecture(p);
     }
 
     public static void haveALecture(Lecturer l){
